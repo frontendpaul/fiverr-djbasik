@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #484A57;
+}
+
+.header {
+  width: 100%;
+  height: 698px;
+  background: url(./assets/header.jpg) center center/cover no-repeat;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 62px;
+  font-weight: 300;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.col {
+  width: 49%;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-title,
+.title,
+.category {
+  margin: 0;
+}
+
+.section {
+  box-shadow: -6px 4px 13px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 30px 40px;
+  margin-bottom: 30px;
+}
+
+.mod-info {
+  /* height: 280px; */
+  font-size: 24px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.category {
+  font-size: 30px;  
+}
+
+.copy {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.btn {
+  width: 100%;
+  height: 109px;
+  color: #FFF;
+  background: #FD5D39;  
+  box-shadow: -6px 4px 13px 0px rgba(0, 0, 0, 0.15);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.img {
+  width: 100%;
+  box-shadow: -6px 4px 13px 0px rgba(0, 0, 0, 0.15);
+}
+
+.miniatures {
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: 85px;
+  height: 85px;
+  margin-right: 15px;
+}
+
+.video {
+  display: inline-block;  
+  position: relative;
+}
+
+.play {
+  width: 40px;
+  height: 40px;
+  background: url(./assets/play.png);
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.thumb {
+  width: 70px;
+  margin-right: 15px;
+}
